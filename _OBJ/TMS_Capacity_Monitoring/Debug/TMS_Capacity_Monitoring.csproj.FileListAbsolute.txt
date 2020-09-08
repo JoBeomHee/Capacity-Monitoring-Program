@@ -1,0 +1,15 @@
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_Debug\TMS_Capacity_Monitoring.exe.config
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_Debug\Config.xml
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_Debug\TMS_Capacity_Monitoring.exe
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_Debug\TMS_Capacity_Monitoring.pdb
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.csprojResolveAssemblyReference.cache
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.CapacityAlarmForm.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.MainForm.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.Properties.Resources.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.csproj.GenerateResource.Cache
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.exe.licenses
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.exe
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.pdb
+C:\Users\winforsys\Desktop\TMS_Capacity_Monitoring\_Debug\TMS_Capacity_Monitoring.exe.config
+C:\Users\winforsys\Desktop\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.exe
+C:\Users\winforsys\Desktop\TMS_Capacity_Monitoring\_OBJ\TMS_Capacity_Monitoring\Debug\TMS_Capacity_Monitoring.pdb

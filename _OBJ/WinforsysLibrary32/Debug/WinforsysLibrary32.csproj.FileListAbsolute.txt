@@ -1,0 +1,10 @@
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_Debug\Winforsys.dll
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_Debug\Winforsys.pdb
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\WinforsysLibrary32\Debug\WinforsysLibrary32.csprojResolveAssemblyReference.cache
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\WinforsysLibrary32\Debug\Winforsys.JKControl.ControlBarUi.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\WinforsysLibrary32\Debug\Winforsys.JKControl.MapControl.DefectPointEventArgs.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\WinforsysLibrary32\Debug\Winforsys.JKControl.UserMessageBox.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\WinforsysLibrary32\Debug\Winforsys.Properties.Resources.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\WinforsysLibrary32\Debug\WinforsysLibrary32.csproj.GenerateResource.Cache
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\WinforsysLibrary32\Debug\Winforsys.dll
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\WinforsysLibrary32\Debug\Winforsys.pdb

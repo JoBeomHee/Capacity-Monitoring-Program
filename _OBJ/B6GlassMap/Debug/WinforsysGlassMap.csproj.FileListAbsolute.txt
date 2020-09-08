@@ -1,0 +1,12 @@
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_Debug\WinforsysGlassMap.dll
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_Debug\WinforsysGlassMap.pdb
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.csprojResolveAssemblyReference.cache
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.ColoredComboBox.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.GlassContourMapForm.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.Properties.Resources.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.GlassMapZoomForm.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.SubmapUi.resources
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.csproj.GenerateResource.Cache
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.dll.licenses
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.dll
+D:\Winforsys\B11\Program\TMS_Capacity_Monitoring\_OBJ\B6GlassMap\Debug\WinforsysGlassMap.pdb

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DB58EAB-F77C-4032-A753-B0D7B8686FFD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinforsysGlassMap</RootNamespace>
+    <AssemblyName>WinforsysGlassMap</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseIntermediateOutputPath>..\..\_OBJ\B6GlassMap\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\_Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\_Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FarPoint.CalcEngine, Version=4.0.3526.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.Excel, Version=4.0.3526.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.PDF, Version=4.0.3526.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.PluginCalendar.WinForms, Version=4.0.3526.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.Win, Version=4.0.3526.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.Win.Spread, Version=4.0.3526.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GlassContourMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlassContourMapForm.Designer.cs">
+      <DependentUpon>GlassContourMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColeredComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubmapUi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubmapUi.Designer.cs">
+      <DependentUpon>SubmapUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WIN_GlassMapUi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Functions.cs" />
+    <Compile Include="MapData.cs" />
+    <Compile Include="MapEventClass.cs" />
+    <Compile Include="MapProperties.cs" />
+    <Compile Include="PinPointData.cs" />
+    <Compile Include="PinPointLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RawData.cs" />
+    <Compile Include="GlassMapZoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlassMapZoomForm.Designer.cs">
+      <DependentUpon>GlassMapZoomForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ColeredComboBox.resx">
+      <DependentUpon>ColeredComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlassContourMapForm.resx">
+      <DependentUpon>GlassContourMapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlassMapZoomForm.resx">
+      <DependentUpon>GlassMapZoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmapUi.resx">
+      <DependentUpon>SubmapUi.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_bubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_bubble_s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_bubble02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_bubble02_s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_openfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_History.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinforsysLibrary\WinforsysLibrary32.csproj">
+      <Project>{da453e7c-b8af-4425-9a32-8e82afcfe068}</Project>
+      <Name>WinforsysLibrary32</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I_GlassMap.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_GlassMap.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

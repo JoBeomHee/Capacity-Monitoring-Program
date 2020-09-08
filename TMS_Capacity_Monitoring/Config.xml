@@ -1,0 +1,35 @@
+﻿<Configuration>
+
+  <DATABASE>
+    <D_ADDR01>192.168.0.111</D_ADDR01>
+    <D_ADDR02>10.95.172.75</D_ADDR02>
+    <R_ADDR01>10.95.172.75</R_ADDR01>
+    <R_ADDR02>10.95.172.75</R_ADDR02>
+    <PORT>1521</PORT>
+    <USER>WIN_ADMIN</USER>
+    <PWD>DNLSVH</PWD>
+    <SERVICE_NAME>TMSRAC</SERVICE_NAME>
+  </DATABASE>
+
+  <FTP_APP>
+    <D_ADDR>10.95.172.85</D_ADDR>
+    <R_ADDR>10.95.172.85</R_ADDR>
+    <D_PORT>21</D_PORT>
+    <R_PORT>21</R_PORT>
+    <USER>administrator</USER>
+    <PWD>@123qwe</PWD>
+  </FTP_APP>
+
+  <IMG_FTP>
+    <D_ADDR>10.95.172.78</D_ADDR>
+    <R_ADDR>10.95.172.78</R_ADDR>
+    <D_PORT>21</D_PORT>
+    <R_PORT>21</R_PORT>
+    <USER>administrator</USER>
+    <PWD>@123qwe</PWD>
+  </IMG_FTP>
+
+  <!--BP / EVEN / TSP-->
+  <DEPT>BP</DEPT>
+
+</Configuration>
